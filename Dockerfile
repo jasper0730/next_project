@@ -13,6 +13,6 @@ RUN npm i && npm cache clean --force
 # 把所有檔案複製到 image 中
 COPY . .
 
-# 執行 build
+# 執行 buildddd
 RUN npm run build
 CMD npm run start
